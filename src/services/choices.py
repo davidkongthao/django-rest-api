@@ -1,0 +1,62 @@
+BUSINESS_DELEGATIONS = (
+        # Corporation Suffixs
+        ("Co", "Co"),
+        ("CO", "CO"),
+        ("Co.", "Co."),
+        ("CO.", "CO."),
+        ("Companies", "Companies"),
+        ("COMPANIES", "COMPANIES"),
+        ("Company", "Company"),
+        ("Corp", "Corp"),
+        ("CORP", "CORP"),
+        ("Corp.", "Corp."),
+        ("CORP.", "CORP."),
+        ("Corporation", "Corporation"),
+        ("CORPORATION", "CORPORATION"),
+        ("Corporations", "Corporations"),
+        ("CORPORATIONS", "CORPORATIONS"),
+        ("Inc", "Inc"),
+        ("INC", "INC"),
+        ("Inc.", "Inc."),
+        ("INC.", "INC."),
+        ("Incorporated", "Incorporated"),
+        ("INCORPORATED", "INCORPORATED"),
+        ("Limited", "Limited"),
+        ("LIMITED", "LIMITED"),
+        ("Ltd", "Ltd"),
+        ("LTD", "LTD"),
+        ("Ltd.", "Ltd."),
+        ("LTD.", "LTD."),
+        ("LLC", "LLC"),
+
+        # Cooperatives
+        ("COOP", "COOP"),
+        ("Cooperative", "Cooperative"),
+        ("COOPERATIVE", "COOPERATIVE"),
+
+        # Limited Liability Companies
+        ("L. L. C.", "L. L. C."),
+        ("L.L.C.", "L.L.C."),
+        ("Limited Liability Company", "Limited Liability Company"),
+        ("LIMITED LIABILITY COMPANY", "LIMITED LIABILITY COMPANY"),
+        ("LLC", "LLC"),
+
+        # Limited Liability Partnerships
+        ("L. L. P.", "L. L. P."),
+        ("L.L.P.", "L.L.P."),
+        ("Limited Liability Partnership", "Limited Liability Partnership"),
+        ("LLP", "LLP"),
+        ("R. L. L. P.", "R. L. L. P."),
+        ("R.L.L.P.", "R.L.L.P."),
+        ("Registered Limited Liability Partnership", "Registered Limited Liability Partnership"),
+        ("REGISTERED LIMITED LIABILITY PARTNERSHIP", "REGISTERED LIMITED LIABILITY PARTNERSHIP"),
+        ("RLLP", "RLLP"),
+
+        # Limited Partnerships
+        ("L P", "L P"),
+        ("L. P.", "L. P."),
+        ("L.P.", "L.P."),
+        ("Limited Partnership", "Limited Partnership"),
+        ("LIMITED PARTNERSHIP", "LIMITED PARTNERSHIP"),
+        ("LP", "LP"),
+)
