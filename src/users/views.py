@@ -12,6 +12,11 @@ from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
 User = get_user_model()
 
 class CustomTokenObtainPairView(TokenObtainPairView):
+    """
+    
+    REST Endpoint for authenticating users who have 2FA enabled. 
+
+    """
     serializer_class = TokenObtainPairSerializer
 
     def post(self, request, *args, **kwargs):
